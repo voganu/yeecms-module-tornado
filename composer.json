@@ -1,0 +1,29 @@
+{
+	"name" : "voganu/yeecms-module-tornado",
+	"description" : "The tornado module ",
+	"type" : "luya-module",
+	"keywords" : ["php", "yeecms", "module", "news", "yii2", "yii"],
+	"license": "MIT",
+	"homepage" : "http://yeecms.io",
+	"authors" : [
+		{
+			"name" : "vogan",
+			"email" : "vogan@ukr.net",
+			"homepage" : "https://github.com/voganu"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/voganu/yeecms-module-tornado/issues"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"voganu\\tornado\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+       "psr-4" : {
+       		"voganu\\tornado\\tests\\" : "tests/",
+           "tornadotests\\" : "tests/"
+       }
+    }
+}
